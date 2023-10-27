@@ -32,6 +32,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
@@ -77,10 +78,14 @@ fun TampilanLayout(
         ){
             Text(
                 text = "Register",
-                fontSize = 24.sp,
+                fontSize = 18.sp,
                 fontWeight = FontWeight.Bold
             )
-
+            Text(
+                text = "Create Your Account",
+                fontSize = 28.sp,
+                fontWeight = FontWeight.Bold
+            )
 
             TampilanForm()
         }
